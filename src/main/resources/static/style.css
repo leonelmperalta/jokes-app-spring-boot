@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+}
+
+.title__container,.joke__container{
+    min-height: 20%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #30475e;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+}
+
+.joke__container{
+    background-color: #f1cfb4;
+}
+
+.title__container,.joke__container * {
+    font-family: sans-serif;
+}
+
+.title{
+    font-size: 56px;
+    margin: 0 0 16px 0;
+}
+
+.joke-button{
+    background-color: #9ec3e7;
+    border: #222831 solid 2px;
+    border-radius: 10%;
+    height: 2em;
+    width: 7em;
+    display: grid;
+    place-items: center;
+}
+
+
+.joke-button:hover{
+    cursor: pointer;
+    background-color: #435668;
+    transition: background-color ease 500ms;
+}
+
+.joke-text-setup,.joke-text-delivery{
+    color: #1f2e3d;
+}
+
+.joke-text-setup{
+    font-size: 20px;
+    margin-top: 8px;
+} 
+.joke-text-delivery{
+    font-size: 12px;
+}
